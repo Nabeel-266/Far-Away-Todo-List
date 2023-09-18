@@ -1,0 +1,21 @@
+.statsArea {
+  width: 100%;
+  height: 10vh;
+  background-color: #fde7aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.statsArea img {
+  height: 30%;
+}
+
+.statsArea p {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-style: oblique;
+  color: #4e3523;
+  font-family: "Quicksand", sans-serif;
+}

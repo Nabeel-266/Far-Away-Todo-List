@@ -1,0 +1,96 @@
+.packingListArea {
+  width: 100%;
+  min-height: 63vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #4e3523;
+  padding: 30px 10vw 20px 10vw;
+}
+
+.listContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px 100px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.listItem .checkBox {
+  width: 16px;
+  height: 16px;
+  accent-color: #f19720;
+}
+
+.listItem p {
+  font-size: 1.8rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  color: #fde7aa;
+  /* text-decoration: 3px solid #fde7aa line-through; */
+}
+
+.listItem .cancelItemBtn {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+}
+
+.cancelItemBtn .crossIcon {
+  font-size: 2rem;
+  color: #ce0e00;
+}
+
+.filterartion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.filterartion .filterList {
+  background-color: #fde7aa;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 100px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filterList option {
+  font-weight: bold;
+  color: #fde7aa;
+  background-color: #3f3732;
+}
+
+.filterartion .clearListBtn {
+  all: unset;
+  color: #4e3523;
+  background-color: #fde7aa;
+  padding: 6px 20px;
+  border-radius: 100px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.clearListBtn:hover {
+  color: #9b0c13;
+}
+
+.clearListBtn:active {
+  transform: scale(0.95);
+}
